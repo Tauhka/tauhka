@@ -16,6 +16,7 @@ MIT license
 Juhapekka Piiroinen
 
 ## Copyright
-Copyright (c) 2020 Critical Force Oy
-Copyright (c) 2019 CSC - IT Center for Science Ltd.
+- Copyright (c) 2020 Critical Force Oy
+
+- Copyright (c) 2019 CSC - IT Center for Science Ltd.
 All Rights Reserved.
