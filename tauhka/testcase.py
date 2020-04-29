@@ -512,19 +512,19 @@ class TauhkaTestCase(unittest.TestCase):
         return self.find_element(elemId)
 
     def find_element_by_name(self, elemName):
-        return self.driver.find_element_by_name(elemName)
+        return self.wait.until(EC.presence_of_element_located((By.NAME, elemName)))
 
     def find_element_by_text(self, text):
-        return self.driver.find_element_by_link_text(text)
+        return self.wait.until(EC.presence_of_element_located((By.LINK_TEXT, text)))
 
     def find_element_by_xpath(self, xpath):
-        return self.driver.find_element_by_xpath(xpath)
+        return self.wait.until(EC.presence_of_element_located((By.XPATH, xpath)))
 
     def find_element_by_css(self, css_selector):
-        return self.driver.find_element_by_css_selector(css_selector)
+        return self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, css_selector)))
 
     def find_element_by_class_name(self, classname):
-        return self.driver.find_element_by_class_name(classname)
+        return self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, classname)))
 
     def open_url(self, url):
         self.driver.get(url)
