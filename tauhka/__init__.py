@@ -1,6 +1,6 @@
 __name__ = "tauhka"
 __all__ = ["testcase"]
-__version__ = "0.0.10"
-__author__ = "CSC - IT Center for Science Ltd."
-__copyright__ = "Copyright (C) 2019 CSC - IT Center for Science Ltd."
+__version__ = "0.0.11"
+__author__ = "Juhapekka Piiroinen"
+__copyright__ = "Copyright (C) 2020 Juhapekka Piiroinen"
 __license__ = "MIT"
