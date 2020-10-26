@@ -204,6 +204,7 @@ class TauhkaTestCase(unittest.TestCase):
                 opts.add_argument("--js-flags=--expose-gc")
                 opts.add_argument("--enable-precise-memory-info")
                 opts.add_argument("--no-sandbox")
+                opts.add_argument("--disable-dev-shm-usage")
             if "TEST_DEBUG" not in os.environ.keys():
                 opts.add_argument("--headless")
             self.driver = webdriver.Chrome(self.webdriver, options=opts, desired_capabilities=caps)
